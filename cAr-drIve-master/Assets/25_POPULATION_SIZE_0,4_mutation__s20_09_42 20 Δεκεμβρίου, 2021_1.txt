@@ -1,0 +1,16 @@
+Login log 
+
+Mutation:0,4
+Population size:25
+Sequence length:20
+
+Login date: 20/12/2021 11:42:34 π.μ.
+
+AvgTimes  	MaxTimes 	MinTimes 	Level
+5,670681	5,871	5,567	0
+5,642279	5,98	5,422	0
+5,557361	5,783	5,282	1
+5,53664	5,801	5,317	2
+5,531721	5,757	5,4	2
+5,56068	5,776	5,359	3
+5,57928	5,798	5,323	4

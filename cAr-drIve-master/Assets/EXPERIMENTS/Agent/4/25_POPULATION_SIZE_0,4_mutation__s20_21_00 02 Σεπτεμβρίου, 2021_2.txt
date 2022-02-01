@@ -1,0 +1,14 @@
+Login log 
+
+Mutation:0,4
+Population size:25
+Sequence length:20
+
+Login date: 3/9/2021 12:00:12 π.μ.
+
+Bound Agent Timers: 
+
+Straight	0	1	2	3	4
+	20,405	20,603	20,681	21,042	21,537
+Turns	0	1	2	3	4
+	23,401	23,972	24,662	27,179	29,503
