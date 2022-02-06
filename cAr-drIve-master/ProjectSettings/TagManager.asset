@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - wall
+  - tile
+  - npc
+  - field
+  - start
+  - startline
+  - finishline
+  - point
+  - best
+  - straight
+  - turnR
+  - turnL
+  - checkpoint
+  - evolve
+  - evolveline
+  - grass
+  - Start
+  - evolvetrigger
+  - playerline
+  - Agent
+  - flag
+  - deleted
+  - boundline
+  - BAgent
+  - BStart
+  - BFinish
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Camera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1133557235
+    locked: 0
+  - name: Foreground
+    uniqueID: 2669363853
+    locked: 0
+  - name: Play Area
+    uniqueID: 1171681297
+    locked: 0
