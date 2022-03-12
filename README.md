@@ -11,18 +11,21 @@
 * [Acknowledgements](#acknowledgements)
 
 ## General Information
+An innovative algorithm to offer personalized experiences online in a simple racing video game. 
+A stochastic planning algorithm (Rolling Horizon Evolution Algorithm (RHEA)), generates
+parts of a race track based on two factors:
 
-the ability of an innovative algorithm to
-offer personalized experiences online in a simple racing video game. We use a recent stochastic
-planning algorithm named Rolling Horizon Evolution Algorithm (RHEA), which generates
-content (parts of a race track) based on the difficulty of the level and the player’s in-game
-performance. The algorithm is tested against Artificial Intelligence (AI) agents; AI racing agents
-define the bounds of the flow channel within which the players are assessed. The algorithm then
-attempts to bring the level of difficulty to match player performance through its fitness function
+* Difficulty of the level [^1]
+* Player’s in-game performance. 
+
+The algorithm attempts to bring the level of difficulty to match player performance through its fitness function.
 
 
 ## Features
+
 ## Technologies
+* Unity Real-Time Development Platform
+* Unity Machine Learning Agents Toolkit (ML-Agents) 
 
 ## Prerequisites 
 This project needs the ML-Agents environment version 0.15.0 to be set up. At best I'd suggest to follow the [official installation guide](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md). However the following steps should suffice:
@@ -39,3 +42,5 @@ This project needs the ML-Agents environment version 0.15.0 to be set up. At bes
 ## How to run
 ## Acknowledgments
 * This project was created for the requirements of my Diploma Work in TUC
+
+[^1]:  Additional AI racing agents define the bounds of the channel within which the players are assessed.
