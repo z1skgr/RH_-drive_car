@@ -4,6 +4,7 @@
  ## Table of contents
 * [General Info](#general-information)
 * [Features](#features)
+* [Technologies](#technologies)
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
 * [How to run](#how-to-run)
@@ -11,6 +12,7 @@
 
 ## General Information
 ## Features
+## Technologies
 
 ## Prerequisites 
 This project needs the ML-Agents environment version 0.15.0 to be set up. At best I'd suggest to follow the [official installation guide](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md). However the following steps should suffice:
