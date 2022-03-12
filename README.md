@@ -1,5 +1,5 @@
-# Thesis
-> Generating Personalized/Balance racing games via Rolling Horizon Evolution
+# Rolling Horizon Evolution on generating Personalized/Balance racing games
+> Implementation on unity acquiring diploma 
  
  ## Table of contents
 * [General Info](#general-information)
@@ -11,6 +11,16 @@
 * [Acknowledgements](#acknowledgements)
 
 ## General Information
+
+the ability of an innovative algorithm to
+offer personalized experiences online in a simple racing video game. We use a recent stochastic
+planning algorithm named Rolling Horizon Evolution Algorithm (RHEA), which generates
+content (parts of a race track) based on the difficulty of the level and the player’s in-game
+performance. The algorithm is tested against Artificial Intelligence (AI) agents; AI racing agents
+define the bounds of the flow channel within which the players are assessed. The algorithm then
+attempts to bring the level of difficulty to match player performance through its fitness function
+
+
 ## Features
 ## Technologies
 
