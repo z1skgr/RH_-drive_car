@@ -26,8 +26,12 @@ The algorithm attempts to bring the level of difficulty to match player performa
 ## Technologies
 * Unity Real-Time Development Platform
 * Unity Machine Learning Agents Toolkit (ML-Agents) 
+* Anaconda Navigator
+* Visual Studio Community
 
 ## Prerequisites 
+The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a10d9e), for details on the content, please check the article.
+
 This project needs the ML-Agents environment version 0.15.0 to be set up. At best I'd suggest to follow the [official installation guide](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md). However the following steps should suffice:
 
 1. Get Python 3.6 64-bit (the 64 bit seems necessary, at least on Windows)
@@ -40,7 +44,7 @@ This project needs the ML-Agents environment version 0.15.0 to be set up. At bes
 
 ## Setup
 ## How to run
-## Acknowledgments
+## Αcknowledgements
 * This project was created for the requirements of my Diploma Work in TUC
 
 [^1]:  Additional AI racing agents define the bounds of the channel within which the players are assessed.
