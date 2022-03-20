@@ -1,5 +1,5 @@
 # Rolling Horizon Evolution on generating Personalized/Balance racing games
-> Implementation on Unity for acquiring computer engineering diploma 
+> AI algorithm implementation on Unity for acquiring computer engineering diploma 
  
  ## Table of contents
 * [General Info](#general-information)
@@ -20,7 +20,9 @@ The algorithm attempts to bring the level of difficulty to match player performa
 
 
 ## Features
-The original implementation used static paths aimed at learning the agents
+The original implementation used static paths aimed at learning the agents.
+
+For information on how to use the training model using anaconda environment, see [doc] (https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#:~:text=Training%20in%20the%20ML-Agents%20Toolkit%20is%20powered%20by,learning%29.%20Its%20implementation%20can%20be%20found%20at%20ml-agents%2Fmlagents%2Ftrainers%2Flearn.py.)
 
 We modify the implementation and the goal is not to learn the agents but to construct content that is identified with the performance of the player
 
