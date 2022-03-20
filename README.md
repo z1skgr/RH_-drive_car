@@ -22,11 +22,18 @@ The algorithm attempts to bring the level of difficulty to match player performa
 ## Features
 The original implementation used static paths aimed at learning the agents.
 
-For information on how to use the training model using anaconda environment, see [doc] (https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#:~:text=Training%20in%20the%20ML-Agents%20Toolkit%20is%20powered%20by,learning%29.%20Its%20implementation%20can%20be%20found%20at%20ml-agents%2Fmlagents%2Ftrainers%2Flearn.py.)
-
-We modify the implementation and the goal is not to learn the agents but to construct content that is identified with the performance of the player
+For information on how to use the training model using anaconda environment, see [doc/Train-Behavior Configuration] (https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#:~:text=Training%20in%20the%20ML-Agents%20Toolkit%20is%20powered%20by,learning%29.%20Its%20implementation%20can%20be%20found%20at%20ml-agents%2Fmlagents%2Ftrainers%2Flearn.py.)
 
 The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a10d9e), for details on the content, please check the article.
+
+We modify the implementation and the goal is not to learn the agents but to construct content that is identified with the performance of the player. 
+
+* Construct dynamic paths on runtime execution (taking into account the parameters needed for construction (distances, direction))
+* Modify the brain model for the requirements of our work. 
+    * Player can use brain in __heuristic__ mode. 
+    * Agents for flow channel area and evolution  use __inference__ mode brain.
+
+
 
 ## Technologies
 * Unity Real-Time Development Platform
@@ -50,7 +57,7 @@ At best I'd suggest to follow the [official installation guide](https://github.c
 Detailed information about the installation and execution can also be found at [doc](
 https://github.com/miyamotok0105/unity-ml-agents/blob/master/docs/Installation-Windows.md)
 
-## Αcknowledgements
+## Acknowledgements
 * This project was created for the requirements of my Diploma Work in TUC
 
 [^1]:  Additional AI racing agents define the bounds of the channel within which the players are assessed.
