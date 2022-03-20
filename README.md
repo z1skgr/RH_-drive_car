@@ -20,7 +20,9 @@ The algorithm attempts to bring the level of difficulty to match player performa
 
 
 ## Features
+The original implementation used static paths aimed at learning the agents
 
+We modify the implementation and the goal is not to learn the agents but to construct content that is identified with the performance of the player
 
 The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a10d9e), for details on the content, please check the article.
 
