@@ -97,6 +97,7 @@ https://github.com/miyamotok0105/unity-ml-agents/blob/master/docs/Installation-W
 
 ## Acknowledgements
 * This project was created for the requirements of my Diploma Work in TUC
+* You can view more details about the work in [pdf](https://github.com/z1skgr/Thesis/issues/4#issue-1181625504)
 
 [^1]: Additional AI racing agents define the bounds of the channel within which the players are assessed.
 [^2]: We want to evolve main population, not offsprings. We could make some adjustments for modifications in evolving stages but not implemented.
