@@ -76,10 +76,10 @@ tuple<sub>1</sub> = (m<sub>11</sub>, m<sub>12</sub>) <br>
 tuple<sub>2</sub> = (m<sub>21</sub>, m<sub>22</sub>) <br>
 
 where 
-* m<sub>i1</sub> : the performance record in the benchmark track __i__,
+* m<sub>i1</sub> : the performance record in the benchmark track __i__
 * m<sub>i2</sub> : the number of curve tiles in the track 
      * 0 in straight 
-     * *60 in snake tracks
+     * 60 in snake tracks
 
 ## Experiments
 The experimental analysis contains three parts:
