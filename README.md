@@ -18,7 +18,7 @@ parts of a race track based on two factors:
 * Player’s in-game performance. 
 
 The algorithm attempts to match players skills upon track measurement. In other words, bring the level of difficulty, up or down, to match player performance through its fitness function (time completion). The degree of difficulty is determined by a function that is rooted in theory of [Flow Channel](#flow-channel-theory).
-We have conducted a series of experiments in our game environment with agents using human strategies and non-human player behavior.
+We have conducted a series of experiments in our game environment with agents using __human strategies__ and __non-human player__ behavior.
 
 ## Features
 The original implementation used static paths aimed at learning the agents. For information on how to use the training model using anaconda environment, see [doc/Train-Behavior Configuration](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#:~:text=Training%20in%20the%20ML-Agents%20Toolkit%20is%20powered%20by,learning%29.%20Its%20implementation%20can%20be%20found%20at%20ml-agents%2Fmlagents%2Ftrainers%2Flearn.py.).
@@ -31,7 +31,7 @@ The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a
 <br>
 
 We modify the implementation and the goal is not to learn the agents but to construct content that is matched to the performance of the player. 
-* Construct dynamic paths on runtime execution (taking into account the parameters needed for construction (distances, direction, collisions))>
+* Construct dynamic paths on runtime execution (taking into account the parameters needed for construction (distances, direction, collisions) for main and RH tracks).
 * Adequate spatial layout between all tracks of the RH algorithm.
 * Modify the brain model for the requirements of our work. 
     * Player can use brain in __heuristic__ mode. 
@@ -45,8 +45,9 @@ In baseline form, *RHEA* utilises Evolutionary Algorithms (EA) to evolve an in-g
 One evolution stage/iteration is up to:
 * Parent chromosomes (main tracks)
 * Offsprings (tracks built from evolution)
-Parent chromosomes are divided into two equal sectors (genotype can be represented as a checkpoint in the middle of the tracks that marks the player's time)
-Offsprings do not use checkpoints[^2].
+Parent chromosomes are divided into two equal sectors (genotype can be represented as a checkpoint in the middle of the tracks that marks the player's time). Offsprings do not use checkpoints[^2].
+
+<br>
 
 *Offsprings after player crosses checkpoint:*
 <br>
