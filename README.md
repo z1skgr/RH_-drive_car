@@ -58,8 +58,11 @@ of boredom and depression in gaming. There the user can become either bored or f
 can serve as a function of the search space between skills and challenges.
 
 The concept focuses on how the agents behave on the benchmark tracks and contribute to the channel formulation based on their execution.
-* Straight-line
-* Snake-line
+* Straight-line [^3]
+* Snake-line [^4]
+
+![ss](https://user-images.githubusercontent.com/22920222/160231006-1c68f858-93c2-4295-b214-dee7e356ea2f.png)
+
 
 ## Technologies
 * Unity Real-Time Development Platform
@@ -86,5 +89,7 @@ https://github.com/miyamotok0105/unity-ml-agents/blob/master/docs/Installation-W
 ## Acknowledgements
 * This project was created for the requirements of my Diploma Work in TUC
 
-[^1]:  Additional AI racing agents define the bounds of the channel within which the players are assessed.
-[^2]:  We want to evolve main population, not offsprings. We could make some adjustments for modifications in evolving stages but not implemented.
+[^1]: Additional AI racing agents define the bounds of the channel within which the players are assessed.
+[^2]: We want to evolve main population, not offsprings. We could make some adjustments for modifications in evolving stages but not implemented.
+[^3]: Maximum performance (or a low finish time).
+[^4]: Minimum performance (or a high finish time).
