@@ -31,7 +31,7 @@ The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a
 
 We modify the implementation and the goal is not to learn the agents but to construct content that is matched to the performance of the player. 
 * Construct dynamic paths on runtime execution (taking into account the parameters needed for construction (distances, direction, collisions))
-* Adequate spatial layout between all tracks
+* Adequate spatial layout between all tracks.
 * Modify the brain model for the requirements of our work. 
     * Player can use brain in __heuristic__ mode. 
     * Agents for flow channel area and evolution  use __inference__ mode brain.
@@ -42,6 +42,11 @@ One evolution stage is up to:
 * Offsprings (tracks built from evolution)
 Parent chromosomes are divided into two equal sectors (genotype can be represented as a checkpoint in the middle of the tracks that marks the player's time)
 Offsprings do not use checkpoints[^2].
+
+Before:
+
+After:
+
 
 ### Flow Channel Theory
 [Flow activities](https://dansilvestre.com/flow-channel/) are guilty of maintaining challenge between the edges
