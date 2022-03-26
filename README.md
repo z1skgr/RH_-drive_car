@@ -78,7 +78,7 @@ The experimental analysis contains three parts:
 * Show sequence of generated tracks in response to player’s behavior.
 * Exhibition the profile of the player.
 
-<div align="center"
+<div align="center">
  
 | Parameter  | Value |
 | ------------- | ------------- |
