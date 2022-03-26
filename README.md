@@ -78,7 +78,7 @@ The experimental analysis contains three parts:
 * Show sequence of generated tracks in response to player’s behavior.
 * Exhibition the profile of the player.
 
-<center>
+<div align="center"
  
 | Parameter  | Value |
 | ------------- | ------------- |
@@ -89,7 +89,7 @@ The experimental analysis contains three parts:
 | Crossover Propability  | 30%  |
 | Generation  Iterations  | 20  |
 
- <center>
+ </div>
   
 We tested our system and the simulations lasted for 20 levels.
 
