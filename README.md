@@ -11,17 +11,17 @@
 
 ## General Information
 An innovative algorithm to offer personalized experiences online in a simple racing video game. 
-A stochastic planning algorithm (Rolling Horizon Evolution Algorithm (RHEA)), generates
+A stochastic planning algorithm [(Rolling Horizon Evolution Algorithm (RHEA))](#rolling-horizon), generates
 parts of a race track based on two factors:
 
-* Difficulty of the level [^1]
+* Difficulty of the level. [^1]
 * Player’s in-game performance. 
 
-The algorithm attempts to match players skills upon track measurement. In other words, bring the level of difficulty, up or down, to match player performance through its fitness function (time completion). The degree of difficulty is determined by a function that is rooted in theory of [Flow Channel](#flow-channel-theory)
-
+The algorithm attempts to match players skills upon track measurement. In other words, bring the level of difficulty, up or down, to match player performance through its fitness function (time completion). The degree of difficulty is determined by a function that is rooted in theory of [Flow Channel](#flow-channel-theory).
+We have conducted a series of experiments in our game environment with agents using human strategies and non-human player behavior.
 
 ## Features
-The original implementation used static paths aimed at learning the agents. For information on how to use the training model using anaconda environment, see [doc/Train-Behavior Configuration](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#:~:text=Training%20in%20the%20ML-Agents%20Toolkit%20is%20powered%20by,learning%29.%20Its%20implementation%20can%20be%20found%20at%20ml-agents%2Fmlagents%2Ftrainers%2Flearn.py.)
+The original implementation used static paths aimed at learning the agents. For information on how to use the training model using anaconda environment, see [doc/Train-Behavior Configuration](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#:~:text=Training%20in%20the%20ML-Agents%20Toolkit%20is%20powered%20by,learning%29.%20Its%20implementation%20can%20be%20found%20at%20ml-agents%2Fmlagents%2Ftrainers%2Flearn.py.).
 The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a10d9e). For details on the content, please check the article.
 
 <br><br>
@@ -31,13 +31,17 @@ The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a
 <br>
 
 We modify the implementation and the goal is not to learn the agents but to construct content that is matched to the performance of the player. 
-* Construct dynamic paths on runtime execution (taking into account the parameters needed for construction (distances, direction, collisions))
+* Construct dynamic paths on runtime execution (taking into account the parameters needed for construction (distances, direction, collisions))>
 * Adequate spatial layout between all tracks.
 * Modify the brain model for the requirements of our work. 
     * Player can use brain in __heuristic__ mode. 
     * Agents for flow channel area and evolution  use __inference__ mode brain.
 
 ### Rolling Horizon
+In baseline form, *RHEA* utilises Evolutionary Algorithms (EA) to evolve an in-game sequence of actions at every game tick using a Forward Model (FM), with restricted computation time per execution. 
+
+* In our implementation, we evolve sequence of race tiles. External driving agents perform the evaluation
+
 One evolution stage is up to:
 * Parent chromosomes (main tracks)
 * Offsprings (tracks built from evolution)
