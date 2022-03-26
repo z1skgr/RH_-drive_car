@@ -38,7 +38,7 @@ We modify the implementation and the goal is not to learn the agents but to cons
     * Agents for flow channel area and evolution  use __inference__ mode brain.
 
 ### Rolling Horizon
-In baseline form, *RHEA* utilises Evolutionary Algorithms (EA) to evolve an in-game sequence of actions at every game tick using a *Forward Model (FM)*, with restricted computation time per execution. 
+In baseline form, *RHEA* utilies Evolutionary Algorithms (EA) to evolve an in-game sequence of actions at every game tick using a *Forward Model (FM)*, with restricted computation time per execution. 
 
 * In our implementation, we evolve sequence of race tiles. External driving agents perform the evaluation
 
@@ -71,6 +71,15 @@ The concept focuses on how the agents behave on the benchmark tracks and contrib
 * Snake-line [^4]
 
 ![ss](https://user-images.githubusercontent.com/22920222/160231006-1c68f858-93c2-4295-b214-dee7e356ea2f.png)
+
+tuple<sub>1</sub> = (m<sub>11</sub>, m<sub>12</sub>) <br>
+tuple<sub>2</sub> = (m<sub>21</sub>, m<sub>22</sub>) <br>
+
+where 
+* m<sub>i1</sub> : the performance record in the benchmark track __i__,
+* m<sub>i2</sub> : the number of curve tiles in the track 
+     * 0 in straight 
+     * *60 in snake tracks
 
 ## Experiments
 The experimental analysis contains three parts:
