@@ -73,7 +73,21 @@ The concept focuses on how the agents behave on the benchmark tracks and contrib
 ![ss](https://user-images.githubusercontent.com/22920222/160231006-1c68f858-93c2-4295-b214-dee7e356ea2f.png)
 
 ## Experiments
+The experimental analysis contains three parts:
+* Display configurations for the flow channel.
+* Show sequence of generated tracks in response to player’s behavior.
+* Exhibition the profile of the player.
 
+| Parameter  | Value |
+| ------------- | ------------- |
+| Population Size P  | 25  |
+| Elitism Factor | 20%  |
+| Individual Length  | 20  |
+| Mutation Propability  | 30%  |
+| Crossover Propability  | 30%  |
+| Generation  Iterations  | 20  |
+
+We tested our system and the simulations lasted for 20 levels.
 
 ## Technologies
 * Unity Real-Time Development Platform
