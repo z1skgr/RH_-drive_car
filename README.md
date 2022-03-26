@@ -59,6 +59,7 @@ Parent chromosomes are divided into two equal sectors (genotype can be represent
 
 We do not want an additional evolutionary phase in these type of tracks. So, there is no checkpoint.
 
+<br>
 
 ### Flow Channel Theory
 [*Flow activities*](https://dansilvestre.com/flow-channel/)  are guilty of maintaining challenge between the edges
