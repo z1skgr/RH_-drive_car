@@ -43,11 +43,11 @@ One evolution stage is up to:
 Parent chromosomes are divided into two equal sectors (genotype can be represented as a checkpoint in the middle of the tracks that marks the player's time)
 Offsprings do not use checkpoints[^2].
 
-Before:
+*Offsprings after player crosses checkpoint:*
 <br>
 ![phase1](https://user-images.githubusercontent.com/22920222/160229906-66f0bd81-a156-49cf-b540-e6328f500502.png)
 
-After:
+*Offsprings after player crosses finish line:*
 <br>
 ![phase2](https://user-images.githubusercontent.com/22920222/160229911-b29754d2-96aa-4871-a46f-ce90baba040d.png)
 
@@ -55,7 +55,11 @@ After:
 ### Flow Channel Theory
 [Flow activities](https://dansilvestre.com/flow-channel/) are guilty of maintaining challenge between the edges
 of boredom and depression in gaming. There the user can become either bored or frustrated. Flow
-can serve as a function of the search space between skills and challenges
+can serve as a function of the search space between skills and challenges.
+
+The concept focuses on how the agents behave on the benchmark tracks and contribute to the channel formulation based on their execution.
+* Straight-line
+* Snake-line
 
 ## Technologies
 * Unity Real-Time Development Platform
