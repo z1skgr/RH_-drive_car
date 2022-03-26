@@ -33,6 +33,7 @@ The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a
 We modify the implementation and the goal is not to learn the agents but to construct content that is matched to the performance of the player. 
 * Construct dynamic paths on runtime execution (taking into account the parameters needed for construction (distances, direction, collisions) for main and RH tracks).
 * Adequate spatial layout between all tracks of the RH algorithm.
+* New components for trackng times (checkpoint, finish lines, etc).
 * Modify the brain model for the requirements of our work. 
     * Player can use brain in __heuristic__ mode. 
     * Agents for flow channel area and evolution  use __inference__ mode brain.
@@ -57,7 +58,7 @@ Parent chromosomes are divided into two equal sectors (genotype can be represent
 <br>
 ![phase2](https://user-images.githubusercontent.com/22920222/160229911-b29754d2-96aa-4871-a46f-ce90baba040d.png)
 
-We do not want an additional evolutionary phase in these type of tracks. So, there is no checkpoint.
+We do not want an additional evolutionary phase in these type of tracks. So, there is no checkpoint. 
 
 <br>
 
