@@ -4,6 +4,7 @@
  ## Table of contents
 * [General Info](#general-information)
 * [Features](#features)
+* [Experiments](#experiments)
 * [Technologies](#technologies)
 * [Prerequisites](#prerequisites)
 * [Acknowledgements](#acknowledgements)
@@ -16,7 +17,7 @@ parts of a race track based on two factors:
 * Difficulty of the level [^1]
 * Player’s in-game performance. 
 
-The algorithm attempts to match players skills upon track measurement. In other words, bring the level of difficulty, up or down, to match player performance through its fitness function (time completion).
+The algorithm attempts to match players skills upon track measurement. In other words, bring the level of difficulty, up or down, to match player performance through its fitness function (time completion). The degree of difficulty is determined by a function that is rooted in theory of [Flow Channel](#flow-channel-theory)
 
 
 ## Features
@@ -51,9 +52,11 @@ Offsprings do not use checkpoints[^2].
 <br>
 ![phase2](https://user-images.githubusercontent.com/22920222/160229911-b29754d2-96aa-4871-a46f-ce90baba040d.png)
 
+We do not want an additional evolutionary phase in these type of tracks. So, there is no checkpoint.
+
 
 ### Flow Channel Theory
-[Flow activities](https://dansilvestre.com/flow-channel/) are guilty of maintaining challenge between the edges
+[*Flow activities*](https://dansilvestre.com/flow-channel/)  are guilty of maintaining challenge between the edges
 of boredom and depression in gaming. There the user can become either bored or frustrated. Flow
 can serve as a function of the search space between skills and challenges.
 
@@ -62,6 +65,8 @@ The concept focuses on how the agents behave on the benchmark tracks and contrib
 * Snake-line [^4]
 
 ![ss](https://user-images.githubusercontent.com/22920222/160231006-1c68f858-93c2-4295-b214-dee7e356ea2f.png)
+
+## Experiments
 
 
 ## Technologies
