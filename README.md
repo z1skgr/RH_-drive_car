@@ -44,8 +44,12 @@ Parent chromosomes are divided into two equal sectors (genotype can be represent
 Offsprings do not use checkpoints[^2].
 
 Before:
+<br>
+![phase1](https://user-images.githubusercontent.com/22920222/160229906-66f0bd81-a156-49cf-b540-e6328f500502.png)
 
 After:
+<br>
+![phase2](https://user-images.githubusercontent.com/22920222/160229911-b29754d2-96aa-4871-a46f-ce90baba040d.png)
 
 
 ### Flow Channel Theory
