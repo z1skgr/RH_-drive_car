@@ -21,7 +21,7 @@ The algorithm attempts to match players skills upon track measurement. In other 
 
 ## Features
 The original implementation used static paths aimed at learning the agents. For information on how to use the training model using anaconda environment, see [doc/Train-Behavior Configuration](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#:~:text=Training%20in%20the%20ML-Agents%20Toolkit%20is%20powered%20by,learning%29.%20Its%20implementation%20can%20be%20found%20at%20ml-agents%2Fmlagents%2Ftrainers%2Flearn.py.)
-The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a10d9e), for details on the content, please check the article.
+The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a10d9e). For details on the content, please check the article.
 
 <br><br>
 
@@ -42,6 +42,11 @@ One evolution stage is up to:
 * Offsprings (tracks built from evolution)
 Parent chromosomes are divided into two equal sectors (genotype can be represented as a checkpoint in the middle of the tracks that marks the player's time)
 Offsprings do not use checkpoints[^2].
+
+### Flow Channel Theory
+[Flow activities](https://dansilvestre.com/flow-channel/) are guilty of maintaining challenge between the edges
+of boredom and depression in gaming. There the user can become either bored or frustrated. Flow
+can serve as a function of the search space between skills and challenges
 
 ## Technologies
 * Unity Real-Time Development Platform
