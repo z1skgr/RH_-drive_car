@@ -101,7 +101,12 @@ The experimental analysis contains three parts:
 
  </div>
   
-We tested our system and the simulations lasted for 20 levels. You can view more details about the experiments in Experiment Section in [pdf](https://github.com/z1skgr/Thesis/issues/4#issue-1181625504).
+We tested our system and the simulations lasted for 20 levels using agents and human players.
+We tested agents using two policies.
+* human-executed strategies
+* Non-strategic
+
+You can view more details about the experiments in Experiment Section in [pdf](https://github.com/z1skgr/Thesis/issues/4#issue-1181625504).
 
 ## Technologies
 * Unity Real-Time Development Platform
@@ -128,6 +133,7 @@ https://github.com/miyamotok0105/unity-ml-agents/blob/master/docs/Installation-W
 ## Acknowledgements
 * This project was created for the requirements of my Diploma Work in TUC
 * You can also see a graphical view with more details about the work in [video](https://drive.google.com/file/d/1uL9BW7yPc2OaRKHYjAQV0_Kmkh-5ti09/view?usp=sharing).
+* You can highlight the parameters used in this work in [pdf](https://github.com/z1skgr/Thesis/issues/4#issue-1181625504) on appendix section.
 
 [^1]: Additional AI racing agents define the bounds of the channel within which the players are assessed.
 [^2]: We want to evolve main population, not offsprings. We could make some adjustments for modifications in evolving stages but not implemented.
