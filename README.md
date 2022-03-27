@@ -41,7 +41,7 @@ We modify the implementation and the goal is not to train the agents but to cons
 ### Rolling Horizon
 In [baseline form](https://www.researchgate.net/publication/340271118_Rolling_Horizon_Evolutionary_Algorithms_for_General_Video_Game_Playing/link/5e8165f5299bf1a91b89fd81/download), *RHEA* utilies Evolutionary Algorithms (EA) to evolve an in-game sequence of actions at every game tick using a *Forward Model (FM)*, with restricted computation time per execution. 
 
-* In our implementation, we evolve sequence of race tiles. External driving agents perform the evaluation.
+* In our implementation, we evolve sequence of race tiles. External driving agents perform the evaluation. A heuristic function h evaluates the game state at the end of the evolution phase in favor of the time-balance problem.
 
 
 
@@ -86,6 +86,27 @@ where
 * m<sub>i2</sub> : the number of curve tiles in the track 
      * 0 in straight 
      * 60 in snake tracks
+
+### Genetic Operators
+
+<br>
+
+<div align="center">
+ 
+| Evolution  |  |
+| ------------- | ------------- |
+| Selection  | Rank  |
+| Crossover | Uniform  |
+| Mutation  | N-flip  |
+| ------------- | ------------- |
+| PCG (Level Gen)  |  |
+| ------------- | ------------- |
+| Selection  |  Tournament |
+| Crossover  | - |
+| Mutation   | Scramble  |
+
+ </div>
+
 
 ## Experiments
 The experimental analysis contains three parts:
