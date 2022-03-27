@@ -93,16 +93,16 @@ where
 
 <div align="center">
  
-| Evolution  |  |
+| __Evolution__  |  |
 | ------------- | ------------- |
 | Selection  | Rank  |
 | Crossover | Uniform  |
 | Mutation  | N-flip  |
 | ------------- | ------------- |
-| PCG (Level Gen)  |  |
+| __PCG (Level Gen)__  |  |
 | ------------- | ------------- |
 | Selection  |  Tournament |
-| Crossover  | - |
+| Crossover  | |
 | Mutation   | Scramble  |
 
  </div>
