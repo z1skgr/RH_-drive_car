@@ -31,9 +31,11 @@ The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a
 <br>
 
 We modify the implementation and the goal is not to train the agents but to construct content that is matched to the performance of the player. 
-* Construct dynamic paths on runtime execution (taking into account the parameters needed for construction (distances, direction, collisions) for main and RH tracks).
+* Construct dynamic paths on runtime execution (taking into account the parameters needed for construction (distances, direction, collisions)).
+    * [PCG](https://www.bing.com/search?q=What%20is%20procedural%20content%20generation%20%28PCG%29%3F)
+    * [RH](http://diego-perez.net/papers/GECCO_RollingHorizonEvolution.pdf)
 * Adequate spatial layout between all tracks of the RH algorithm.
-* New components for trackng times (checkpoint, finish lines, etc).
+* New components for tracking times (checkpoint, finish lines, etc).
 * Modify the brain model for the requirements of our work. 
     * Player can use brain in __heuristic__ mode. 
     * Agents for flow channel area and evolution  use __inference__ mode brain.
