@@ -21,7 +21,7 @@ The algorithm attempts to match players skills upon track measurement. In other 
 We have conducted a series of experiments in our game environment with agents using __human strategies__ and __non-human player__ behavior.
 
 ## Features
-The original implementation used static paths aimed at learning the agents. For information on how to use the training model using anaconda environment, see [doc/Train-Behavior Configuration](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#:~:text=Training%20in%20the%20ML-Agents%20Toolkit%20is%20powered%20by,learning%29.%20Its%20implementation%20can%20be%20found%20at%20ml-agents%2Fmlagents%2Ftrainers%2Flearn.py.).
+The original implementation used static paths aimed at training the agents. For information on how to use the training model using anaconda environment, see [doc/Train-Behavior Configuration](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#:~:text=Training%20in%20the%20ML-Agents%20Toolkit%20is%20powered%20by,learning%29.%20Its%20implementation%20can%20be%20found%20at%20ml-agents%2Fmlagents%2Ftrainers%2Flearn.py.).
 The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a10d9e). For details on the content, please check the article.
 
 <br><br>
@@ -41,15 +41,11 @@ We modify the implementation and the goal is not to learn the agents but to cons
 ### Rolling Horizon
 In baseline form, *RHEA* utilies Evolutionary Algorithms (EA) to evolve an in-game sequence of actions at every game tick using a *Forward Model (FM)*, with restricted computation time per execution. 
 
-* In our implementation, we evolve sequence of race tiles. External driving agents perform the evaluation
+* In our implementation, we evolve sequence of race tiles. External driving agents perform the evaluation.
 
-<div class="math">
 
-\begin{equation} \label{eq:eq1}
- h(I_s) =\begin{cases}r, & finished\\0, & otherwise\end{cases} 
-\end{equation}
 
-</div>
+<br>
 
 One evolution stage/iteration is up to:
 * Parent chromosomes (main tracks)
