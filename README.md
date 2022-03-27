@@ -120,7 +120,7 @@ The experimental analysis contains three parts:
  
 | Parameter  | Value |
 | ------------- | ------------- |
-| Population Size P  | 25  |
+| Population Size  | 25  |
 | Elitism Factor | 20%  |
 | Individual Length  | 20  |
 | Mutation Propability  | 30%  |
