@@ -43,6 +43,12 @@ In baseline form, *RHEA* utilies Evolutionary Algorithms (EA) to evolve an in-ga
 
 * In our implementation, we evolve sequence of race tiles. External driving agents perform the evaluation
 
+<div class="math">
+\begin{equation}
+  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}  
+\end{equation}
+</div>
+
 One evolution stage/iteration is up to:
 * Parent chromosomes (main tracks)
 * Offsprings (tracks built from evolution)
