@@ -1,0 +1,1 @@
+{"count":1,"gauges":{},"self":5.1605599999999994,"total":5.1635458,"children":{"AgentSendState":{"count":1,"self":0.0009574,"total":0.0019868,"children":{"CollectObservations":{"count":1,"self":0.0010294,"total":0.0010294,"children":null}}}}}
