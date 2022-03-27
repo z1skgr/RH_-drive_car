@@ -30,7 +30,7 @@ The initial body of work comes from [Medium article](http://medium.com/p/60b0e7a
 
 <br>
 
-We modify the implementation and the goal is not to learn the agents but to construct content that is matched to the performance of the player. 
+We modify the implementation and the goal is not to train the agents but to construct content that is matched to the performance of the player. 
 * Construct dynamic paths on runtime execution (taking into account the parameters needed for construction (distances, direction, collisions) for main and RH tracks).
 * Adequate spatial layout between all tracks of the RH algorithm.
 * New components for trackng times (checkpoint, finish lines, etc).
@@ -39,7 +39,7 @@ We modify the implementation and the goal is not to learn the agents but to cons
     * Agents for flow channel area and evolution  use __inference__ mode brain.
 
 ### Rolling Horizon
-In baseline form, *RHEA* utilies Evolutionary Algorithms (EA) to evolve an in-game sequence of actions at every game tick using a *Forward Model (FM)*, with restricted computation time per execution. 
+In [baseline form](https://www.researchgate.net/publication/340271118_Rolling_Horizon_Evolutionary_Algorithms_for_General_Video_Game_Playing/link/5e8165f5299bf1a91b89fd81/download), *RHEA* utilies Evolutionary Algorithms (EA) to evolve an in-game sequence of actions at every game tick using a *Forward Model (FM)*, with restricted computation time per execution. 
 
 * In our implementation, we evolve sequence of race tiles. External driving agents perform the evaluation.
 
@@ -48,8 +48,9 @@ In baseline form, *RHEA* utilies Evolutionary Algorithms (EA) to evolve an in-ga
 <br>
 
 One evolution stage/iteration is up to:
-* Parent chromosomes (main tracks)
+* Parent chromosomes (current generation)
 * Offsprings (tracks built from evolution)
+
 Parent chromosomes are divided into two equal sectors (genotype can be represented as a checkpoint in the middle of the tracks that marks the player's time). Offsprings do not use checkpoints[^2].
 
 <br>
